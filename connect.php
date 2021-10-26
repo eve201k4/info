@@ -18,7 +18,7 @@ $rs = $db->execute('select * from bioderma_2018');
 
 echo "test";
 print "<pre>";
-print_r($rs->getRows());
+//print_r($rs->getRows());
 print "</pre>";
 
 echo "var_folder01 = ".$var_folder01."<br>";
