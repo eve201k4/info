@@ -21,6 +21,7 @@ print "<pre>";
 print_r($rs->getRows());
 print "</pre>";
 
+echo "var_folder01 = ".$var_folder01."<br>";
 
 //DocumentRoot "/volumes/mac SSD Data/coolism"
 //<Directory "/volumes/mac SSD Data/coolism">
