@@ -1,10 +1,14 @@
 <?
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 session_start();
 date_default_timezone_set('Asia/Bangkok');
 header ('Content-type: text/html; charset=utf-8');
 
 
-include('include/adodb/adodb.inc.php');
+include('include/adodb5/adodb.inc.php');
 
 
 $db = adoNewConnection('mysqli'); # eg. 'mysqli' or 'oci8'
