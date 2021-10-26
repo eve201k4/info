@@ -9,7 +9,7 @@ header ('Content-type: text/html; charset=utf-8');
 
 
 include('include/adodb5/adodb.inc.php');
-
+include('folder01/var.inc.php');
 
 $db = adoNewConnection('mysqli'); # eg. 'mysqli' or 'oci8'
 $db->debug = true;
