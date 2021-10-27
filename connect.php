@@ -17,7 +17,7 @@ $rs = $db->execute('select * from audit_2');
 
 echo "test";
 print "<pre>";
-print_r($rs->getRow());
+print_r($rs->getRows());
 print "</pre>";
 
 echo "var_folder01 = ".$var_folder01."<br>";
