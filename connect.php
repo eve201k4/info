@@ -13,7 +13,7 @@ include('folder01/var.inc.php');
 
 $db = adoNewConnection('mysqli'); # eg. 'mysqli' or 'oci8'
 $db->debug = true;
-$db->connect('database-1.chsgzrua7gac.us-east-2.rds.amazonaws.com', 'admin', 'superadmin', 'database-1');
+$db->connect('localhost', 'root', 'root', 'game');
 //$rs = $db->execute('select * from bioderma_2018');
 
 echo "test";
