@@ -13,7 +13,7 @@ include('folder01/var.inc.php');
 $db = adoNewConnection('mysqli'); # eg. 'mysqli' or 'oci8'
 $db->debug = true;
 $db->connect($hostDB, $userDB, $passDB, $nameDB);
-$rs = $db->execute('select * from game.audit_2');
+$rs = $db->execute('select * from audit_2');
 
 echo "test";
 print "<pre>";
