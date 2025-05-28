@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-web
+    runtime: docker
+    repo: https://github.com/eve201k4/info
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PORT
+        value: 8000
